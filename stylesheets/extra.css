@@ -11,6 +11,8 @@ img[src*="screenshots"] + em {
   color: var(--md-default-fg-color--light);
   margin-top: 0;
   margin-bottom: 1.5em;
+}
+
 /* Custom colors to match Intestigator logo */
 
 /* Light mode */
