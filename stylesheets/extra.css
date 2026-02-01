@@ -1,0 +1,72 @@
+/* Custom colors to match Intestigator logo */
+
+/* Light mode */
+[data-md-color-scheme="default"] {
+  /* Primary: Terracotta/coral from stomach */
+  --md-primary-fg-color: #D4764E;
+  --md-primary-fg-color--light: #E08B66;
+  --md-primary-fg-color--dark: #B8613D;
+
+  /* Accent: Deep purple from magnifying glass handle */
+  --md-accent-fg-color: #5E4B8B;
+  --md-accent-fg-color--transparent: #5E4B8B1a;
+}
+
+/* Navigation links in light mode */
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #D4764E;
+}
+
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #5E4B8B;
+}
+
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: #5E4B8B;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  /* Primary: Terracotta/coral from stomach */
+  --md-primary-fg-color: #D4764E;
+  --md-primary-fg-color--light: #E08B66;
+  --md-primary-fg-color--dark: #B8613D;
+
+  /* Accent: Lighter terracotta for links on dark backgrounds */
+  --md-accent-fg-color: #E08B66;
+  --md-accent-fg-color--transparent: #E08B661a;
+
+  /* Ensure typeset links use accent color */
+  --md-typeset-a-color: #E08B66;
+}
+
+/* Force link colors in dark mode */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #E08B66;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #F5E6D3;
+}
+
+/* Navigation links in dark mode */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #E08B66;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #F5E6D3;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #F5E6D3;
+}
+
+/* Heading permalink anchor */
+[data-md-color-scheme="slate"] .md-typeset .headerlink {
+  color: #E08B66;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .headerlink:hover {
+  color: #F5E6D3;
+}
