@@ -1,3 +1,16 @@
+/* Screenshot images - display as block with caption below */
+img[src*="screenshots"] {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Caption styling - appears below image */
+img[src*="screenshots"] + em {
+  display: block;
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0;
+  margin-bottom: 1.5em;
 /* Custom colors to match Intestigator logo */
 
 /* Light mode */
